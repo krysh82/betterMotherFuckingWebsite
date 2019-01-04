@@ -1,0 +1,23 @@
+body {
+  font-family: Georgia, Sans-Serif;
+  color: #3a3d3a;
+  background-color: #EEEEEE;
+    
+}
+
+#main_content{
+  width: 90%;
+  margin: auto;
+background-color: white;
+    padding: 20px;
+}
+
+input {
+    width: 80px;
+    height: 50px;
+    background-color: #d8a21a;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+}
