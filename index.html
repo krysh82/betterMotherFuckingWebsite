@@ -16,8 +16,10 @@
 	
 </head>
 <body onload="ouvert_fen()">
+	<!--ajout de bouton pour switcher les couleurs-->
 	<button onclick="switchStyle('style2.css')"> Magenta </button>
 	<button onclick="switchStyle('style.css')"> Gris </button>
+	<!--création d'un conteneur global pour tout le site-->
 	<div id="container"> 
  		<header>
 		<h1>This is <em>still</em> a motherfucking website.</h1>
@@ -54,10 +56,13 @@
 
 	<h2>Epilogue</h2>
 		<p>Inspired by the geniuses behind <a href="http://motherfuckingwebsite.com/"> motherfuckingwebsite.com</a> and <a href="http://txti.es/"> txti</a>.</p>
-		
+
+	<!--Insertion bas de page-->	
 	<footer>
 		<p>This page - that isn't a total fucking eyesore - was created by <a href="https://twitter.com/drew_mc"> me </a> with help from <a href="https://twitter.com/gabehammersmith"> him.</a></p>
     </footer>
+
+    <!--script de la popup-->
     <script language="JavaScript">
 	function ouvert_fen() { 
 	setTimeout("window.open('popup.html','','width=500,height=200')",10000);
