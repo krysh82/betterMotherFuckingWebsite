@@ -2,18 +2,24 @@
 <html>
 <head>
 	<title>Better Motherfucking Website</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    
-<script language="JavaScript">
-function ouvert_fen() { 
-setTimeout("window.open('popup.html','','width=500,height=200')",10000);
+	<link rel="stylesheet" type="text/css" href="style.css" id="mycss">
+	<script type="text/javascript">
+		function switchStyle(style){
+   			document.getElementById("mycss").setAttribute("href", style);
 }
-</script>
+		function switchStyle(style){
+   			document.getElementById("change").setAttribute("href", style);
+   		}
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="style2.css" id="change">
+	
 </head>
 <body onload="ouvert_fen()">
- <div id="container"> 
- 	<button id="change_color">Changer la couleur</button>
-	<header>
+	<button onclick="switchStyle('style2.css')"> Magenta </button>
+	<button onclick="switchStyle('style.css')"> Gris </button>
+	<div id="container"> 
+ 		<header>
 		<h1>This is <em>still</em> a motherfucking website.</h1>
 		<aside>And it's more fucking perfect than the last guy's.</aside>
     </header>
@@ -52,6 +58,11 @@ setTimeout("window.open('popup.html','','width=500,height=200')",10000);
 	<footer>
 		<p>This page - that isn't a total fucking eyesore - was created by <a href="https://twitter.com/drew_mc"> me </a> with help from <a href="https://twitter.com/gabehammersmith"> him.</a></p>
     </footer>
+    <script language="JavaScript">
+	function ouvert_fen() { 
+	setTimeout("window.open('popup.html','','width=500,height=200')",10000);
+	}
+</script>
 </div>
 </body>
 </html>
