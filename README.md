@@ -1,5 +1,14 @@
 BetterMotherFuckingWebsite est une version améliorée du site MotherFuckingWebsite.
 
-Ajout de CSS pour mieux présenter le site
+https://krysh82.github.io/betterMotherFuckingWebsite/
+
+Le site en production est accessible à l'adresse: 
+
+
+ - Ajout de CSS pour mieux présenter le site
+ - Affichage d'une page POPUP avec possbilité d'accès au lien de la pub ou de fermer
+ - Possibilité de changer la couleur du fond de la page 
+
+
 
 
