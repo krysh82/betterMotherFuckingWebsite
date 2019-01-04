@@ -1,12 +1,65 @@
 /*style page better motherfucking website*/
 
+/*style page better motherfucking website*/
+
 body {
 	line-height: 1.6;
 	font-size: 18px;
 	color: #444;
-	max-width: 650px;
 	margin: auto;
 	margin-top: 40px;
+    font-family: Georgia, Sans-Serif;
+    background-color: #EEEEEE;
 }
 
+#container {
+  width: 60%;
+  margin: auto;
+  background-color: white;
+padding: 20px;
+}
 
+h1 {
+  font-size: 200%;
+  text-align: center;
+  color: aliceblue;
+}
+
+h1, h2, h3 {
+  color:#d8a21a;
+  text-transform: capitalize;
+  font-weight: 100;
+}
+
+a {
+	color: #07a;
+}
+/*color for visited link*/
+a:visited {
+	color: #941352;
+}
+
+@media screen and (max-width: 768px){
+  #container{
+    width: 90%;
+  }
+  h1 {
+    font-size: 100%;
+  }
+}
+
+#change_color {
+    background-color: magenta;
+    color: blue;
+}
+
+footer {
+  background-color: #d8a21a;
+  margin-top: 40px;
+
+ }
+
+footer p {
+	color: white;
+	padding: 20px;
+}
